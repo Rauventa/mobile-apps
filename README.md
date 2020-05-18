@@ -7,4 +7,3 @@
 `File Manager` - React/Redux<br>
 `Contacts Manager` -  React/Redux<br>
 
-#####All files located in ***"Master"*** branch
