@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/editTextHint"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioRed"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioOrange"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioB_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioYellow"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioGreen"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_lightblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioLightBlue"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_darkblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioDarkBlue"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radio_purple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/radioPurple"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:paddingTop="10dp"
+        android:text="@string/buttonText"
+        android:textSize="24sp" />
+
+</LinearLayout>
